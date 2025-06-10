@@ -115,6 +115,59 @@ export default function Accueil() {
           Parlons de votre projet
         </Link>
       </section>
+      {/* Aperçu des prestations */}
+<section className="w-full px-6 py-16 bg-[#fdfcf8] text-[#0b2b15]">
+  <div className="max-w-5xl mx-auto text-center">
+    <h2 className="text-2xl md:text-3xl font-bold uppercase tracking-wide mb-10">
+      Nos prestations
+    </h2>
+
+    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 text-left">
+      {/* Carte 1 */}
+      <div className="bg-white rounded-2xl shadow p-6 border border-[#0b2b15]/10">
+        <h3 className="font-semibold text-lg mb-2">Identité visuelle</h3>
+        <p className="text-sm leading-relaxed">
+          Création de logos, chartes graphiques et systèmes visuels cohérents.
+        </p>
+      </div>
+
+      {/* Carte 2 */}
+      <div className="bg-white rounded-2xl shadow p-6 border border-[#0b2b15]/10">
+        <h3 className="font-semibold text-lg mb-2">Branding freelance</h3>
+        <p className="text-sm leading-relaxed">
+          Définir votre univers de marque pour mieux vous distinguer.
+        </p>
+      </div>
+
+      {/* Carte 3 */}
+      <div className="bg-white rounded-2xl shadow p-6 border border-[#0b2b15]/10">
+        <h3 className="font-semibold text-lg mb-2">UI/UX design</h3>
+        <p className="text-sm leading-relaxed">
+          Conception d’interfaces intuitives et fonctionnelles, orientées utilisateur.
+        </p>
+      </div>
+
+      {/* Carte 4 */}
+      <div className="bg-white rounded-2xl shadow p-6 border border-[#0b2b15]/10">
+        <h3 className="font-semibold text-lg mb-2">Sites vitrines</h3>
+        <p className="text-sm leading-relaxed">
+          Design et maquettage de sites vitrines modernes et responsive.
+        </p>
+      </div>
+    </div>
+
+    {/* Bouton vers page prestations */}
+    <div className="mt-10">
+      <a
+        href="/prestations"
+        className="inline-block px-6 py-3 border border-[#0b2b15] rounded-full text-sm font-medium hover:bg-[#0b2b15] hover:text-[#fdfcf8] transition-all"
+      >
+        Voir toutes les prestations
+      </a>
+    </div>
+  </div>
+</section>
+
       {/* Footer */}
       <footer className="w-full px-6 py-10 border-t border-[#0b2b15]/10 text-sm text-center">
         <p className="mb-2">© {new Date().getFullYear()} ViteButNotTooMuch</p>
