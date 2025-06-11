@@ -28,6 +28,7 @@ export default function Accueil() {
     property="og:url"
     content="https://www.vitebutnottoomuch.fr"
   />
+  <meta property="og:type" content="website" />
   <meta name="twitter:card" content="summary_large_image" />
 
   <script type="application/ld+json">
