@@ -5,74 +5,72 @@ export default function Accueil() {
   return (
     <main className="bg-[#fdfcf8] text-[#0b2b15] min-h-screen flex flex-col items-center font-[Satoshi]">
       <Helmet>
-  <title>ViteButNotTooMuch | Studio créatif à Paris — Design & Branding sur mesure</title>
+        <title>
+          ViteButNotTooMuch | Studio créatif à Paris — Design & Branding sur
+          mesure
+        </title>
 
-  <meta
-    name="description"
-    content="ViteButNotTooMuch, studio créatif indépendant basé à Paris, crée des identités visuelles uniques et des interfaces web sur mesure pour donner vie à vos projets."
-  />
+        <meta
+          name="description"
+          content="ViteButNotTooMuch, studio créatif indépendant basé à Paris, crée des identités visuelles uniques et des interfaces web sur mesure pour donner vie à vos projets."
+        />
 
-  <meta
-    property="og:title"
-    content="ViteButNotTooMuch | Studio créatif à Paris — Design & Branding sur mesure"
-  />
-  <meta
-    property="og:description"
-    content="Création d'identités visuelles uniques et interfaces web personnalisées par ViteButNotTooMuch, studio créatif indépendant."
-  />
-  <meta
-    property="og:image"
-    content="https://www.vitebutnottoomuch.fr/images/og-cover.jpg"
-  />
-  <meta
-    property="og:url"
-    content="https://www.vitebutnottoomuch.fr"
-  />
-  <meta property="og:type" content="website" />
-  <meta name="twitter:card" content="summary_large_image" />
+        <meta
+          property="og:title"
+          content="ViteButNotTooMuch | Studio créatif à Paris — Design & Branding sur mesure"
+        />
+        <meta
+          property="og:description"
+          content="Création d'identités visuelles uniques et interfaces web personnalisées par ViteButNotTooMuch, studio créatif indépendant."
+        />
+        <meta
+          property="og:image"
+          content="https://www.vitebutnottoomuch.fr/images/og-cover.jpg"
+        />
+        <meta property="og:url" content="https://www.vitebutnottoomuch.fr" />
+        <meta property="og:type" content="website" />
+        <meta name="twitter:card" content="summary_large_image" />
 
-  <script type="application/ld+json">
-  {JSON.stringify({
-    "@context": "https://schema.org",
-    "@type": "Organization",
-    "name": "ViteButNotTooMuch",
-    "url": "https://www.vitebutnottoomuch.fr",
-    "logo": "https://www.vitebutnottoomuch.fr/images/logo.png",
-    "description": "Studio créatif spécialisé en design graphique, identité visuelle, branding et UI/UX.",
-    "founder": {
-      "@type": "Person",
-      "name": "Clara Martin",
-      "jobTitle": "Fondatrice & Directrice artistique",
-      "sameAs": [
-        "https://www.linkedin.com/in/clara-martin-18bb1a36a/"
-      ]
-    },
-    "address": {
-      "@type": "PostalAddress",
-      "streetAddress": "19-21 rue Erard",
-      "addressLocality": "Paris",
-      "postalCode": "75012",
-      "addressCountry": "FR"
-    },
-    "contactPoint": {
-      "@type": "ContactPoint",
-      "telephone": "+33 1 86 22 25 97",
-      "contactType": "customer service",
-      "areaServed": "FR",
-      "availableLanguage": "French"
-    },
-    "sameAs": [
-      "https://www.instagram.com/vitebutnottoomuch.studio/",
-      "https://www.behance.net/vitebutnottoomuch",
-      "https://www.linkedin.com/company/vitebutnottoomuch-studio/"
-    ]
-  })}
-</script>
-<link rel="icon" href="../../public/favicon.ico" type="image/x-icon" />
-<link rel="apple-touch-icon" href="../../apple-touch-icon.png" />
-<meta name="theme-color" content="#0b2b15" />
-</Helmet>
-
+        <script type="application/ld+json">
+          {JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "Organization",
+            name: "ViteButNotTooMuch",
+            url: "https://www.vitebutnottoomuch.fr",
+            logo: "https://www.vitebutnottoomuch.fr/images/logo.png",
+            description:
+              "Studio créatif spécialisé en design graphique, identité visuelle, branding et UI/UX.",
+            founder: {
+              "@type": "Person",
+              name: "Clara Martin",
+              jobTitle: "Fondatrice & Directrice artistique",
+              sameAs: ["https://www.linkedin.com/in/clara-martin-18bb1a36a/"],
+            },
+            address: {
+              "@type": "PostalAddress",
+              streetAddress: "19-21 rue Erard",
+              addressLocality: "Paris",
+              postalCode: "75012",
+              addressCountry: "FR",
+            },
+            contactPoint: {
+              "@type": "ContactPoint",
+              telephone: "+33 1 86 22 25 97",
+              contactType: "customer service",
+              areaServed: "FR",
+              availableLanguage: "French",
+            },
+            sameAs: [
+              "https://www.instagram.com/vitebutnottoomuch.studio/",
+              "https://www.behance.net/vitebutnottoomuch",
+              "https://www.linkedin.com/company/vitebutnottoomuch-studio/",
+            ],
+          })}
+        </script>
+        <link rel="icon" href="../../public/favicon.ico" type="image/x-icon" />
+        <link rel="apple-touch-icon" href="../../apple-touch-icon.png" />
+        <meta name="theme-color" content="#0b2b15" />
+      </Helmet>
 
       {/* Header */}
       <header className="w-full text-center mt-16 mb-8 px-4">
@@ -97,12 +95,14 @@ export default function Accueil() {
       <section className="grid grid-cols-1 md:grid-cols-2 gap-4 px-4 max-w-5xl mb-12 w-full">
         <img
           src="/images/fond-editorial-branding-gouttes.webp"
-          alt="Image éditoriale, fond visuel branding. Des gouttes d'eau sur une surface" loading="lazy"
+          alt="Image éditoriale, fond visuel branding. Des gouttes d'eau sur une surface"
+          loading="lazy"
           className="object-cover w-full aspect-[4/5] sm:aspect-square rounded-md"
         />
         <img
           src="/images/fond-editorial-branding-gouttes.webp"
-          alt="Image éditoriale, fond visuel branding. Des gouttes d'eau sur une surface" loading="lazy"
+          alt="Image éditoriale, fond visuel branding. Des gouttes d'eau sur une surface"
+          loading="lazy"
           className="object-cover w-full aspect-[4/5] sm:aspect-square transform -scale-x-100 rounded-md"
         />
       </section>
@@ -119,35 +119,55 @@ export default function Accueil() {
             À propos de ViteButNotTooMuch
           </h2>
           <div>
-            <h3 className="text-lg md:text-xl font-semibold mb-2">Philosophie</h3>
+            <h3 className="text-lg md:text-xl font-semibold mb-2">
+              Philosophie
+            </h3>
             <p className="leading-relaxed text-sm md:text-base">
-              Chez <strong>ViteButNotTooMuch</strong>, on croit au pouvoir du design rapide, mais réfléchi. Chaque projet est abordé avec une intention claire : allier efficacité, esthétique et sens.
+              Chez <strong>ViteButNotTooMuch</strong>, on croit au pouvoir du
+              design rapide, mais réfléchi. Chaque projet est abordé avec une
+              intention claire : allier efficacité, esthétique et sens.
             </p>
           </div>
           <div>
-            <h3 className="text-lg md:text-xl font-semibold mb-2">Ce qu’on fait</h3>
+            <h3 className="text-lg md:text-xl font-semibold mb-2">
+              Ce qu’on fait
+            </h3>
             <p className="leading-relaxed text-sm md:text-base">
-              Le studio <strong>ViteButNotTooMuch</strong> est spécialisé dans le branding, l’UI/UX design et la création de maquettes web élégantes.
+              Le studio <strong>ViteButNotTooMuch</strong> est spécialisé dans
+              le branding, l’UI/UX design et la création de maquettes web
+              élégantes.
             </p>
           </div>
           <div>
-            <h3 className="text-lg md:text-xl font-semibold mb-2">Fondatrice</h3>
+            <h3 className="text-lg md:text-xl font-semibold mb-2">
+              Fondatrice
+            </h3>
             <p className="leading-relaxed text-sm md:text-base">
-              Le studio a été fondé par une designer indépendante passionnée par l’univers du digital et de la narration visuelle.
+              Le studio a été fondé par une designer indépendante passionnée par
+              l’univers du digital et de la narration visuelle.
             </p>
           </div>
         </div>
       </section>
 
       {/* CTA Buttons */}
-       <section className="flex flex-col md:flex-row justify-center gap-4 px-4 mb-12 w-full max-w-4xl mx-auto">
-        <Link to="/studio" className="flex items-center justify-center text-center px-6 py-2 border border-[#0b2b15] text-[#0b2b15] hover:bg-[#0b2b15] hover:text-[#fdfcf8] transition-colors text-sm uppercase tracking-wide">
+      <section className="flex flex-col md:flex-row justify-center gap-4 px-4 mb-12 w-full max-w-4xl mx-auto">
+        <Link
+          to="/studio"
+          className="flex items-center justify-center text-center px-6 py-2 border border-[#0b2b15] text-[#0b2b15] hover:bg-[#0b2b15] hover:text-[#fdfcf8] transition-colors text-sm uppercase tracking-wide"
+        >
           Découvrir notre approche
         </Link>
-        <Link to="/prestations" className="flex items-center justify-center text-center px-6 py-2 border border-[#0b2b15] text-[#0b2b15] hover:bg-[#0b2b15] hover:text-[#fdfcf8] transition-colors text-sm uppercase tracking-wide">
+        <Link
+          to="/prestations"
+          className="flex items-center justify-center text-center px-6 py-2 border border-[#0b2b15] text-[#0b2b15] hover:bg-[#0b2b15] hover:text-[#fdfcf8] transition-colors text-sm uppercase tracking-wide"
+        >
           Voir les services
         </Link>
-        <Link to="/contact" className="flex items-center justify-center text-center px-6 py-2 border border-[#0b2b15] text-[#0b2b15] hover:bg-[#0b2b15] hover:text-[#fdfcf8] transition-colors text-sm uppercase tracking-wide">
+        <Link
+          to="/contact"
+          className="flex items-center justify-center text-center px-6 py-2 border border-[#0b2b15] text-[#0b2b15] hover:bg-[#0b2b15] hover:text-[#fdfcf8] transition-colors text-sm uppercase tracking-wide"
+        >
           Parlons de votre projet
         </Link>
       </section>
@@ -160,41 +180,48 @@ export default function Accueil() {
           </h2>
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 text-left">
-            {/* Carte 1 */}
+            {/* Identité visuelle & branding */}
             <div className="bg-white rounded-2xl shadow-md p-8 border border-[#0b2b15]/10">
-              <h3 className="font-semibold text-xl mb-3">Identité visuelle</h3>
+              <h3 className="font-semibold text-xl mb-3">
+                Identité visuelle & branding
+              </h3>
               <p className="text-base leading-relaxed">
-                Création de logos, chartes graphiques et systèmes visuels
-                cohérents pour faire rayonner votre marque.
+                Création de chartes graphiques, logotypes et univers visuels
+                pour construire une image de marque cohérente et durable.
               </p>
             </div>
 
-            {/* Carte 2 */}
+            {/* Design web & UI/UX */}
             <div className="bg-white rounded-2xl shadow-md p-8 border border-[#0b2b15]/10">
-              <h3 className="font-semibold text-xl mb-3">Branding freelance</h3>
+              <h3 className="font-semibold text-xl mb-3">Design web & UI/UX</h3>
               <p className="text-base leading-relaxed">
-                Une stratégie de marque sur-mesure pour vous démarquer avec
-                impact.
+                Conception d’interfaces web claires, esthétiques et orientées
+                utilisateur, adaptées à tous les écrans.
               </p>
             </div>
 
-            {/* Carte 3 */}
+            {/* Direction artistique */}
             <div className="bg-white rounded-2xl shadow-md p-8 border border-[#0b2b15]/10">
-              <h3 className="font-semibold text-xl mb-3">UI/UX design</h3>
+              <h3 className="font-semibold text-xl mb-3">
+                Direction artistique
+              </h3>
               <p className="text-base leading-relaxed">
-                Interfaces claires et intuitives, pensées pour vos utilisateurs.
+                Accompagnement créatif global : cadrage esthétique, cohérence
+                visuelle, choix iconographiques et typographiques.
               </p>
             </div>
 
-            {/* Carte 4 */}
+            {/* Création de sites vitrines */}
             <div className="bg-white rounded-2xl shadow-md p-8 border border-[#0b2b15]/10">
-              <h3 className="font-semibold text-xl mb-3">Sites vitrines</h3>
+              <h3 className="font-semibold text-xl mb-3">
+                Création de sites vitrines
+              </h3>
               <p className="text-base leading-relaxed">
-                Design et maquettes de sites élégants, rapides et responsive.
+                Design et prototypage de sites élégants, rapides et impactants,
+                pensés pour présenter votre activité avec clarté.
               </p>
             </div>
           </div>
-
           {/* CTA */}
           <div className="mt-12">
             <a
@@ -218,7 +245,8 @@ export default function Accueil() {
             <div className="flex flex-col items-center text-left bg-white rounded-2xl shadow-md overflow-hidden border border-[#0b2b15]/10">
               <img
                 src="/images/branding-startup-tech.webp"
-                alt="Identité visuelle pour une startup tech, création de logo et système de marque" loading="lazy"
+                alt="Identité visuelle pour une startup tech, création de logo et système de marque"
+                loading="lazy"
                 className="w-full h-60 object-cover"
               />
               <div className="p-6">
@@ -242,7 +270,8 @@ export default function Accueil() {
             <div className="flex flex-col items-center text-left bg-white rounded-2xl shadow-md overflow-hidden border border-[#0b2b15]/10">
               <img
                 src="/images/ui-ux-ecommerce-refonte.webp"
-                alt="Interface e-commerce repensée pour optimiser l’expérience utilisateur et la conversion" loading="lazy"
+                alt="Interface e-commerce repensée pour optimiser l’expérience utilisateur et la conversion"
+                loading="lazy"
                 className="w-full h-60 object-cover"
               />
               <div className="p-6">
@@ -339,30 +368,6 @@ export default function Accueil() {
           </div>
         </div>
       </section>
-
-      {/* Footer */}
-      <footer className="w-full px-4 sm:px-6 py-10 border-t border-[#0b2b15]/10 text-sm text-center text-darkgreen">
-  <p className="mb-4">© {new Date().getFullYear()} ViteButNotTooMuch</p>
-
-  <nav className="flex flex-col sm:flex-row flex-wrap justify-center gap-2 sm:gap-4 text-xs uppercase tracking-wide">
-    <a href="/" className="hover:underline">
-      Accueil
-    </a>
-    <a href="/studio" className="hover:underline">
-      Le studio
-    </a>
-    <a href="/prestations" className="hover:underline">
-      Prestations
-    </a>
-    <a href="/projets" className="hover:underline">
-      Projets
-    </a>
-    <a href="/contact" className="hover:underline">
-      Contact
-    </a>
-  </nav>
-</footer>
-
     </main>
   );
 }
