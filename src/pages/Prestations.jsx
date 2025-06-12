@@ -140,7 +140,7 @@ export default function Prestations() {
       </Helmet>
 
       <section className="mb-14">
-        <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl tracking-wide uppercase font-bold">
+        <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl tracking-wide uppercase font-bold mb-4">
           Nos prestations
         </h1>
         <p className="text-base sm:text-lg max-w-3xl mb-6">
@@ -167,7 +167,7 @@ export default function Prestations() {
       </section>
 
       <section className="mb-14">
-        <h2 className="text-2xl md:text-3xl font-bold uppercase tracking-wide mb-12">
+        <h2 className="text-2xl md:text-3xl font-bold uppercase tracking-wide mb-4">
           Notre histoire
         </h2>
         <p className="max-w-3xl text-sm sm:text-base leading-relaxed">
@@ -182,7 +182,7 @@ export default function Prestations() {
 
       {services.map((service, idx) => (
         <section key={idx} className="mb-20">
-          <h2 className="text-2xl md:text-3xl font-bold uppercase tracking-wide mb-12">
+          <h2 className="text-2xl md:text-3xl font-bold uppercase tracking-wide mb-4">
             {service.category}
           </h2>
           <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
