@@ -1,10 +1,10 @@
 import { Helmet } from "react-helmet";
-import Card1 from "../assets/ui-ux-ecommerce-refonte.webp";
-import Card2 from "../assets/branding-startup-tech.webp";
-import Branding from "../assets/illustration-identite-visuelle.webp";
-import UX from "../assets/exemple-design-ui-ux.webp";
-import Studio from "../assets/visuel-direction-artistique-studio.webp";
-import Web from "../assets/creation-site-vitrine-exemple.webp";
+import Card1 from "../../public/images/ui-ux-ecommerce-refonte.webp";
+import Card2 from "../../public/images/branding-startup-tech.webp";
+import Branding from "../../public/images/illustration-identite-visuelle.webp";
+import UX from "../../public/images/exemple-design-ui-ux.webp";
+import Studio from "../../public/images/visuel-direction-artistique-studio.webp";
+import Web from "../../public/images/creation-site-vitrine-exemple.webp";
 
 const services = [
   {
