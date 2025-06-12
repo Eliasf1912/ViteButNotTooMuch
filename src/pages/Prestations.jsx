@@ -140,8 +140,8 @@ export default function Prestations() {
       </Helmet>
 
       <section className="mb-14">
-        <h1 className="text-3xl sm:text-5xl font-bold mb-6">
-          Nos prestations sur mesure
+        <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl tracking-wide uppercase font-bold">
+          Nos prestations
         </h1>
         <p className="text-base sm:text-lg max-w-3xl mb-6">
           Le studio <strong>ViteButNotTooMuch</strong> vous accompagne dans la
@@ -167,7 +167,7 @@ export default function Prestations() {
       </section>
 
       <section className="mb-14">
-        <h2 className="text-2xl sm:text-3xl font-semibold mb-4">
+        <h2 className="text-2xl md:text-3xl font-bold uppercase tracking-wide mb-12">
           Notre histoire
         </h2>
         <p className="max-w-3xl text-sm sm:text-base leading-relaxed">
@@ -182,7 +182,7 @@ export default function Prestations() {
 
       {services.map((service, idx) => (
         <section key={idx} className="mb-20">
-          <h2 className="text-xl sm:text-2xl font-bold mb-4">
+          <h2 className="text-2xl md:text-3xl font-bold uppercase tracking-wide mb-12">
             {service.category}
           </h2>
           <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
@@ -198,7 +198,7 @@ export default function Prestations() {
                   className="h-48 w-full object-cover"
                 />
                 <div className="p-5 flex-1 flex flex-col">
-                  <h3 className="text-lg font-semibold mb-1">{pack.title}</h3>
+                  <h3 className="font-semibold text-xl mb-3">{pack.title}</h3>
                   <span className="text-sm text-gray-700 font-medium mb-2">
                     {pack.price}
                   </span>
