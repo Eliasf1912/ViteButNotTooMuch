@@ -215,7 +215,7 @@ export default function Prestations() {
       <div className="text-center mt-16">
         <a
           href="/contact"
-          className="inline-block bg-[#0b2b15] text-white py-3 px-6 rounded-full text-sm sm:text-base hover:bg-[#124026] transition"
+          className="inline-block px-6 py-3 bg-[#0b2b15] text-[#fdfcf8] font-medium tracking-wide rounded-full hover:bg-[#143d25] transition"
         >
           Discutons de votre projet
         </a>
