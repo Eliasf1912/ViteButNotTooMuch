@@ -1,26 +1,26 @@
 @import "tailwindcss";
 
 @font-face {
-  font-family: 'Satoshi';
-  src: url('/fonts/Satoshi-Regular.woff2') format('woff2');
-  font-weight: 400;
-  font-style: normal;
-  font-display: swap;
+	font-family: 'Satoshi';
+	src: url('/fonts/Satoshi-Regular.woff2') format('woff2');
+	font-weight: 400;
+	font-style: normal;
+	font-display: swap;
 }
 
 @font-face {
-  font-family: 'Satoshi';
-  src: url('/fonts/Satoshi-Bold.woff2') format('woff2');
-  font-weight: 700;
-  font-style: normal;
-  font-display: swap;
+	font-family: 'Satoshi';
+	src: url('/fonts/Satoshi-Bold.woff2') format('woff2');
+	font-weight: 700;
+	font-style: normal;
+	font-display: swap;
 }
 
 body {
 	margin: 0;
 	padding: 0;
-	font-family: sans-serif;
-	background-color: #fefcf6; 
+	font-family: 'Satoshi';
+	background-color: #fefcf6;
 	color: #0b2b15;
 }
 
