@@ -1,6 +1,6 @@
 import { Helmet } from "react-helmet";
-import Card1 from "../assets/pack-starter-identite-visuelle.webp";
-import Card2 from "../assets/pack-premium-design-web.webp";
+import Card1 from "../assets/ui-ux-ecommerce-refonte.webp";
+import Card2 from "../assets/branding-startup-tech.webp";
 import Branding from "../assets/illustration-identite-visuelle.webp";
 import UX from "../assets/exemple-design-ui-ux.webp";
 import Studio from "../assets/visuel-direction-artistique-studio.webp";
