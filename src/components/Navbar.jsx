@@ -34,31 +34,42 @@ export default function Navbar() {
   };
 
   return (
-    <nav className="px-6 py-4 bg-cream text-darkgreen font-sans uppercase tracking-wide text-sm">
-      <div className="flex items-center justify-between w-full">
-  
-        <div className="text-lg font-bold">VBN™</div>
+   <nav className="relative px-6 py-4 bg-cream text-darkgreen font-sans uppercase tracking-wide text-sm">
+  <div className="flex items-center justify-between w-full">
+    <div className="text-lg font-bold">VBN™</div>
 
-        <div className="md:hidden">
-          <button
-            onClick={() => setIsOpen(!isOpen)}
-            aria-label="Ouvrir le menu"
-          >
-            {isOpen ? <X size={24} /> : <Menu size={24} />}
-          </button>
-        </div>
+    {/* Bouton menu burger (mobile uniquement) */}
+    <div className="md:hidden">
+      <button
+        onClick={() => setIsOpen(true)}
+        aria-label="Ouvrir le menu"
+      >
+        <Menu size={24} />
+      </button>
+    </div>
 
-        <div className="hidden md:flex gap-6 ml-auto">
-          {navLinks()}
-        </div>
-      </div>
+    {/* Menu desktop */}
+    <div className="hidden md:flex gap-6 ml-auto">
+      {navLinks()}
+    </div>
+  </div>
 
-      
-      {isOpen && (
-        <div className="flex flex-col items-end gap-4 mt-4 md:hidden">
-          {navLinks(true)}
-        </div>
-      )}
-    </nav>
+  {/* Menu mobile déroulant */}
+  {isOpen && (
+  <div className="fixed inset-0 bg-[#fdfcf8] z-50 px-6 py-8">
+    <button
+      onClick={() => setIsOpen(false)}
+      className="absolute top-6 right-6"
+      aria-label="Fermer le menu"
+    >
+      <X size={24} />
+    </button>
+
+    <div className="flex flex-col items-end gap-4 mt-20">
+      {navLinks(true)}
+    </div>
+  </div>
+)}
+</nav>
   );
 }
