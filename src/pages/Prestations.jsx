@@ -144,9 +144,10 @@ export default function Prestations() {
           Nos prestations sur mesure
         </h1>
         <p className="text-base sm:text-lg max-w-3xl mb-6">
-          Le studio ViteButNotTooMuch vous accompagne dans la création de votre
-          image de marque, vos supports digitaux et la direction artistique de
-          vos projets avec un style clair, rapide et impactant.
+          Le studio <strong>ViteButNotTooMuch</strong> vous accompagne dans la
+          création de votre image de marque, vos supports digitaux et la
+          direction artistique de vos projets avec un style clair, rapide et
+          impactant.
         </p>
         <div className="grid grid-cols-2 sm:grid-cols-4 gap-4">
           {[Branding, UX, Studio, Web].map((src, i) => (
@@ -171,10 +172,11 @@ export default function Prestations() {
         </h2>
         <p className="max-w-3xl text-sm sm:text-base leading-relaxed">
           Fondé avec l'envie de concilier efficacité et esthétique,
-          ViteButNotTooMuch est un studio créatif indépendant spécialisé dans le
-          design rapide mais soigné. Chaque projet, qu'il s'agisse de branding,
-          d'UI/UX ou de création de site vitrine, est pensé pour valoriser votre
-          image tout en assurant clarté, cohérence et performance SEO.
+          <strong>ViteButNotTooMuch</strong> est un studio créatif indépendant
+          spécialisé dans le design rapide mais soigné. Chaque projet, qu'il
+          s'agisse de branding, d'UI/UX ou de création de site vitrine, est
+          pensé pour valoriser votre image tout en assurant clarté, cohérence et
+          performance SEO.
         </p>
       </section>
 
